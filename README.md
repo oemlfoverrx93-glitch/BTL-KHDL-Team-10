@@ -55,7 +55,3 @@ From project root:
    - `python scripts/model_evaluation.py`
 7. Run submission prediction:
    - `python scripts/predict_submission.py`
-
-## 8. Team Members
-Update this section with your final team list and roles.
-
