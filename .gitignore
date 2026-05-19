@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.env
+
+# OS artifacts
+Thumbs.db
+.DS_Store
+
+# Optional: ignore database backups if too large
+# *.bak
+
