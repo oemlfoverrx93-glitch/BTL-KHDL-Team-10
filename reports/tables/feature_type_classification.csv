@@ -1,0 +1,38 @@
+Feature,Type,Processing,InTrain
+LotArea,Numerical Continuous,"Pearson correlation, StandardScaler, dùng trực tiếp cho regression",True
+GrLivArea,Numerical Continuous,"Pearson correlation, StandardScaler, dùng trực tiếp cho regression",True
+TotalBsmtSF,Numerical Continuous,"Pearson correlation, StandardScaler, dùng trực tiếp cho regression",True
+GarageArea,Numerical Continuous,"Pearson correlation, StandardScaler, dùng trực tiếp cho regression",True
+MasVnrArea,Numerical Continuous,"Pearson correlation, StandardScaler, dùng trực tiếp cho regression",True
+LotFrontage,Numerical Continuous,"Pearson correlation, StandardScaler, dùng trực tiếp cho regression",True
+FullBath,Numerical Count,"Spearman correlation, có thể scaling nhẹ hoặc giữ nguyên",True
+HalfBath,Numerical Count,"Spearman correlation, có thể scaling nhẹ hoặc giữ nguyên",True
+BedroomAbvGr,Numerical Count,"Spearman correlation, có thể scaling nhẹ hoặc giữ nguyên",True
+TotRmsAbvGrd,Numerical Count,"Spearman correlation, có thể scaling nhẹ hoặc giữ nguyên",True
+GarageCars,Numerical Count,"Spearman correlation, có thể scaling nhẹ hoặc giữ nguyên",True
+Fireplaces,Numerical Count,"Spearman correlation, có thể scaling nhẹ hoặc giữ nguyên",True
+ExterQual,Ordinal Categorical,"OrdinalEncoder (Ex=5, Gd=4, TA=3, Fa=2, Po=1, None=0)",True
+ExterCond,Ordinal Categorical,"OrdinalEncoder (Ex=5, Gd=4, TA=3, Fa=2, Po=1, None=0)",True
+KitchenQual,Ordinal Categorical,"OrdinalEncoder (Ex=5, Gd=4, TA=3, Fa=2, Po=1, None=0)",True
+HeatingQC,Ordinal Categorical,"OrdinalEncoder (Ex=5, Gd=4, TA=3, Fa=2, Po=1, None=0)",True
+BsmtQual,Ordinal Categorical,"OrdinalEncoder (Ex=5, Gd=4, TA=3, Fa=2, Po=1, None=0)",True
+BsmtCond,Ordinal Categorical,"OrdinalEncoder (Ex=5, Gd=4, TA=3, Fa=2, Po=1, None=0)",True
+GarageQual,Ordinal Categorical,"OrdinalEncoder (Ex=5, Gd=4, TA=3, Fa=2, Po=1, None=0)",True
+GarageCond,Ordinal Categorical,"OrdinalEncoder (Ex=5, Gd=4, TA=3, Fa=2, Po=1, None=0)",True
+FireplaceQu,Ordinal Categorical,"OrdinalEncoder (Ex=5, Gd=4, TA=3, Fa=2, Po=1, None=0)",True
+Neighborhood,Nominal Categorical,One-Hot Encoding (pd.get_dummies / OneHotEncoder),True
+MSZoning,Nominal Categorical,One-Hot Encoding (pd.get_dummies / OneHotEncoder),True
+BldgType,Nominal Categorical,One-Hot Encoding (pd.get_dummies / OneHotEncoder),True
+HouseStyle,Nominal Categorical,One-Hot Encoding (pd.get_dummies / OneHotEncoder),True
+RoofStyle,Nominal Categorical,One-Hot Encoding (pd.get_dummies / OneHotEncoder),True
+Exterior1st,Nominal Categorical,One-Hot Encoding (pd.get_dummies / OneHotEncoder),True
+Exterior2nd,Nominal Categorical,One-Hot Encoding (pd.get_dummies / OneHotEncoder),True
+SaleType,Nominal Categorical,One-Hot Encoding (pd.get_dummies / OneHotEncoder),True
+SaleCondition,Nominal Categorical,One-Hot Encoding (pd.get_dummies / OneHotEncoder),True
+CentralAir,Binary,"LabelEncoder hoặc map thủ công (Y=1, N=0; Pave=1, Grvl=0)",True
+Street,Binary,"LabelEncoder hoặc map thủ công (Y=1, N=0; Pave=1, Grvl=0)",True
+MSSubClass,Special Coded Category,Chuyển sang str rồi One-Hot Encoding (KHÔNG dùng như số),True
+MoSold,Special Coded Category,Chuyển sang str rồi One-Hot Encoding (KHÔNG dùng như số),True
+YrSold,Special Coded Category,Chuyển sang str rồi One-Hot Encoding (KHÔNG dùng như số),True
+SalePrice,Target,Log1p transform để giảm skewness,True
+Id,ID,Loại bỏ khỏi tập đặc trưng (drop trước khi train),True

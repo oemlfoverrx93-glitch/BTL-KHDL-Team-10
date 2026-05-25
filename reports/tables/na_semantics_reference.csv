@@ -1,0 +1,15 @@
+Column,NA_Meaning,InTrainColumns,MentionedInDataDescription
+PoolQC,No Pool,True,True
+Alley,No alley access,True,True
+Fence,No Fence,True,True
+FireplaceQu,No Fireplace,True,True
+GarageType,No Garage,True,True
+GarageFinish,No Garage,True,True
+GarageQual,No Garage,True,True
+GarageCond,No Garage,True,True
+BsmtQual,No Basement,True,True
+BsmtCond,No Basement,True,True
+BsmtExposure,No Basement,True,True
+BsmtFinType1,No Basement,True,True
+BsmtFinType2,No Basement,True,True
+MiscFeature,No Misc Feature,True,True

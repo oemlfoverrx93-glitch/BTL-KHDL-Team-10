@@ -1,0 +1,2 @@
+Metric,Pearson,PearsonPValue,Spearman,SpearmanPValue
+"corr(abs_residual, predicted)",0.4347082424588178,6.8589686359827035e-15,0.18103582485071573,0.0018965193312555635

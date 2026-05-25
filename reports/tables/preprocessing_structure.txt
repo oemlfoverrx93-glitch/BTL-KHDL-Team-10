@@ -1,0 +1,17 @@
+--- BLUEPRINT PREPROCESSING ---
+
+1. Numeric Features (Continuous & Count):
+   - StandardScaler
+   - Cols: 16
+
+2. Ordinal Features:
+   - OrdinalEncoder (Ex=5, Gd=4...)
+   - Cols: 9
+
+3. Nominal & Special Coded Features:
+   - Convert to String -> OneHotEncoder(handle_unknown='ignore')
+   - Cols: 12
+
+4. Binary Features:
+   - Manual Map (Y=1, N=0, Pave=1, Grvl=0)
+   - Cols: 2

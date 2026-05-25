@@ -1,0 +1,35 @@
+Column,Strategy,Reason
+PoolQC,fillna('None'),No feature
+MiscFeature,fillna('None'),No feature
+Alley,fillna('None'),No feature
+Fence,fillna('None'),No feature
+FireplaceQu,fillna('None'),No feature
+GarageType,fillna('None'),No feature
+GarageFinish,fillna('None'),No feature
+GarageQual,fillna('None'),No feature
+GarageCond,fillna('None'),No feature
+BsmtQual,fillna('None'),No feature
+BsmtCond,fillna('None'),No feature
+BsmtExposure,fillna('None'),No feature
+BsmtFinType1,fillna('None'),No feature
+BsmtFinType2,fillna('None'),No feature
+GarageArea,fillna(0),No numeric feature
+GarageCars,fillna(0),No numeric feature
+BsmtFinSF1,fillna(0),No numeric feature
+BsmtFinSF2,fillna(0),No numeric feature
+BsmtUnfSF,fillna(0),No numeric feature
+TotalBsmtSF,fillna(0),No numeric feature
+BsmtFullBath,fillna(0),No numeric feature
+BsmtHalfBath,fillna(0),No numeric feature
+LotFrontage,fillna(median=69.0000),True missing numeric
+Electrical,fillna(mode=SBrkr),True missing categorical
+MasVnrType,fallback fillna(mode=BrkFace),Remaining categorical missing
+MasVnrArea,fallback fillna(median=0.0000),Remaining numeric missing
+GarageYrBlt,fallback fillna(median=1980.0000),Remaining numeric missing
+MSZoning,test-only fillna(mode=RL),Column not available in train
+Utilities,test-only fillna(mode=AllPub),Column not available in train
+Exterior1st,test-only fillna(mode=VinylSd),Column not available in train
+Exterior2nd,test-only fillna(mode=VinylSd),Column not available in train
+KitchenQual,test-only fillna(mode=TA),Column not available in train
+Functional,test-only fillna(mode=Typ),Column not available in train
+SaleType,test-only fillna(mode=WD),Column not available in train
