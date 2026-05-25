@@ -1,0 +1,5 @@
+Check,Result
+Same columns count,PASS
+Exactly matching columns,PASS
+Missing cols in test,0
+Missing cols in train,0

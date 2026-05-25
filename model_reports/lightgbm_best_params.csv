@@ -1,0 +1,2 @@
+learning_rate,num_leaves,max_depth,feature_fraction,bagging_fraction,bagging_freq
+0.005070867703701768,70,5,0.9190283133646319,0.8128505034644216,4

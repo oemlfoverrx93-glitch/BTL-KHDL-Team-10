@@ -1,0 +1,11 @@
+,495
+BsmtQual,3.0
+ExterCond,3.0
+KitchenQual,3.0
+HeatingQC,3.0
+ExterQual,3.0
+BsmtCond,3.0
+RemodAge,1.7471516922535757
+HouseAge,1.73453760783863
+RoofStyle_Gable,1.0
+HouseStyle_1Story,1.0

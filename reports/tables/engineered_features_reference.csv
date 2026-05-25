@@ -1,0 +1,8 @@
+Feature,Formula,Meaning
+TotalSF,TotalBsmtSF + 1stFlrSF + 2ndFlrSF,Tổng diện tích sàn và hầm
+HouseAge,YrSold - YearBuilt,Tuổi thọ ngôi nhà khi bán
+RemodAge,YrSold - YearRemodAdd,Số năm từ lần cải tạo cuối
+TotalBath,FullBath + 0.5*HalfBath + BsmtFullBath + 0.5*BsmtHalfBath,Tổng số phòng tắm quy đổi
+HasGarage,GarageArea > 0,Nhà có garage (1/0)
+HasBasement,TotalBsmtSF > 0,Nhà có tầng hầm (1/0)
+HasFireplace,Fireplaces > 0,Nhà có lò sưởi (1/0)

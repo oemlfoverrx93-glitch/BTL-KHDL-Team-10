@@ -1,0 +1,158 @@
+Feature,Type
+LotArea,Numeric
+GrLivArea,Numeric
+TotalBsmtSF,Numeric
+GarageArea,Numeric
+MasVnrArea,Numeric
+LotFrontage,Numeric
+FullBath,Numeric
+HalfBath,Numeric
+BedroomAbvGr,Numeric
+TotRmsAbvGrd,Numeric
+GarageCars,Numeric
+Fireplaces,Numeric
+TotalSF,Engineered Numeric
+HouseAge,Engineered Numeric
+RemodAge,Engineered Numeric
+TotalBath,Engineered Numeric
+ExterQual,Ordinal Encoded
+ExterCond,Ordinal Encoded
+KitchenQual,Ordinal Encoded
+HeatingQC,Ordinal Encoded
+BsmtQual,Ordinal Encoded
+BsmtCond,Ordinal Encoded
+GarageQual,Ordinal Encoded
+GarageCond,Ordinal Encoded
+FireplaceQu,Ordinal Encoded
+Neighborhood_Blmngtn,OneHot Encoded
+Neighborhood_Blueste,OneHot Encoded
+Neighborhood_BrDale,OneHot Encoded
+Neighborhood_BrkSide,OneHot Encoded
+Neighborhood_ClearCr,OneHot Encoded
+Neighborhood_CollgCr,OneHot Encoded
+Neighborhood_Crawfor,OneHot Encoded
+Neighborhood_Edwards,OneHot Encoded
+Neighborhood_Gilbert,OneHot Encoded
+Neighborhood_IDOTRR,OneHot Encoded
+Neighborhood_MeadowV,OneHot Encoded
+Neighborhood_Mitchel,OneHot Encoded
+Neighborhood_NAmes,OneHot Encoded
+Neighborhood_NPkVill,OneHot Encoded
+Neighborhood_NWAmes,OneHot Encoded
+Neighborhood_NoRidge,OneHot Encoded
+Neighborhood_NridgHt,OneHot Encoded
+Neighborhood_OldTown,OneHot Encoded
+Neighborhood_SWISU,OneHot Encoded
+Neighborhood_Sawyer,OneHot Encoded
+Neighborhood_SawyerW,OneHot Encoded
+Neighborhood_Somerst,OneHot Encoded
+Neighborhood_StoneBr,OneHot Encoded
+Neighborhood_Timber,OneHot Encoded
+Neighborhood_Veenker,OneHot Encoded
+MSZoning_C (all),OneHot Encoded
+MSZoning_FV,OneHot Encoded
+MSZoning_RH,OneHot Encoded
+MSZoning_RL,OneHot Encoded
+MSZoning_RM,OneHot Encoded
+BldgType_1Fam,OneHot Encoded
+BldgType_2fmCon,OneHot Encoded
+BldgType_Duplex,OneHot Encoded
+BldgType_Twnhs,OneHot Encoded
+BldgType_TwnhsE,OneHot Encoded
+HouseStyle_1.5Fin,OneHot Encoded
+HouseStyle_1.5Unf,OneHot Encoded
+HouseStyle_1Story,OneHot Encoded
+HouseStyle_2.5Fin,OneHot Encoded
+HouseStyle_2.5Unf,OneHot Encoded
+HouseStyle_2Story,OneHot Encoded
+HouseStyle_SFoyer,OneHot Encoded
+HouseStyle_SLvl,OneHot Encoded
+RoofStyle_Flat,OneHot Encoded
+RoofStyle_Gable,OneHot Encoded
+RoofStyle_Gambrel,OneHot Encoded
+RoofStyle_Hip,OneHot Encoded
+RoofStyle_Mansard,OneHot Encoded
+RoofStyle_Shed,OneHot Encoded
+Exterior1st_AsbShng,OneHot Encoded
+Exterior1st_AsphShn,OneHot Encoded
+Exterior1st_BrkComm,OneHot Encoded
+Exterior1st_BrkFace,OneHot Encoded
+Exterior1st_CBlock,OneHot Encoded
+Exterior1st_CemntBd,OneHot Encoded
+Exterior1st_HdBoard,OneHot Encoded
+Exterior1st_ImStucc,OneHot Encoded
+Exterior1st_MetalSd,OneHot Encoded
+Exterior1st_Plywood,OneHot Encoded
+Exterior1st_Stone,OneHot Encoded
+Exterior1st_Stucco,OneHot Encoded
+Exterior1st_VinylSd,OneHot Encoded
+Exterior1st_Wd Sdng,OneHot Encoded
+Exterior1st_WdShing,OneHot Encoded
+Exterior2nd_AsbShng,OneHot Encoded
+Exterior2nd_AsphShn,OneHot Encoded
+Exterior2nd_Brk Cmn,OneHot Encoded
+Exterior2nd_BrkFace,OneHot Encoded
+Exterior2nd_CBlock,OneHot Encoded
+Exterior2nd_CmentBd,OneHot Encoded
+Exterior2nd_HdBoard,OneHot Encoded
+Exterior2nd_ImStucc,OneHot Encoded
+Exterior2nd_MetalSd,OneHot Encoded
+Exterior2nd_Other,OneHot Encoded
+Exterior2nd_Plywood,OneHot Encoded
+Exterior2nd_Stone,OneHot Encoded
+Exterior2nd_Stucco,OneHot Encoded
+Exterior2nd_VinylSd,OneHot Encoded
+Exterior2nd_Wd Sdng,OneHot Encoded
+Exterior2nd_Wd Shng,OneHot Encoded
+SaleType_COD,OneHot Encoded
+SaleType_CWD,OneHot Encoded
+SaleType_Con,OneHot Encoded
+SaleType_ConLD,OneHot Encoded
+SaleType_ConLI,OneHot Encoded
+SaleType_ConLw,OneHot Encoded
+SaleType_New,OneHot Encoded
+SaleType_Oth,OneHot Encoded
+SaleType_WD,OneHot Encoded
+SaleCondition_Abnorml,OneHot Encoded
+SaleCondition_AdjLand,OneHot Encoded
+SaleCondition_Alloca,OneHot Encoded
+SaleCondition_Family,OneHot Encoded
+SaleCondition_Normal,OneHot Encoded
+SaleCondition_Partial,OneHot Encoded
+MSSubClass_120,OneHot Encoded
+MSSubClass_160,OneHot Encoded
+MSSubClass_180,OneHot Encoded
+MSSubClass_190,OneHot Encoded
+MSSubClass_20,OneHot Encoded
+MSSubClass_30,OneHot Encoded
+MSSubClass_40,OneHot Encoded
+MSSubClass_45,OneHot Encoded
+MSSubClass_50,OneHot Encoded
+MSSubClass_60,OneHot Encoded
+MSSubClass_70,OneHot Encoded
+MSSubClass_75,OneHot Encoded
+MSSubClass_80,OneHot Encoded
+MSSubClass_85,OneHot Encoded
+MSSubClass_90,OneHot Encoded
+MoSold_1,OneHot Encoded
+MoSold_10,OneHot Encoded
+MoSold_11,OneHot Encoded
+MoSold_12,OneHot Encoded
+MoSold_2,OneHot Encoded
+MoSold_3,OneHot Encoded
+MoSold_4,OneHot Encoded
+MoSold_5,OneHot Encoded
+MoSold_6,OneHot Encoded
+MoSold_7,OneHot Encoded
+MoSold_8,OneHot Encoded
+MoSold_9,OneHot Encoded
+YrSold_2006,OneHot Encoded
+YrSold_2007,OneHot Encoded
+YrSold_2008,OneHot Encoded
+YrSold_2009,OneHot Encoded
+YrSold_2010,OneHot Encoded
+CentralAir,Binary
+Street,Binary
+HasGarage,Binary
+HasBasement,Binary
+HasFireplace,Binary
